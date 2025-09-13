@@ -5,6 +5,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String expression = scanner.nextLine();
+
+        //Direcciones de los archivos
         String inputFilePath = "/home/goodsgames/Downloads/Hola.txt",
                 outputFilePath = "/home/goodsgames/Downloads/Hola.txt";
 
