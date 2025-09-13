@@ -37,6 +37,8 @@ public class ExpressionValidation {
                     writer.write(matcher.group() + "\n");
                 }
             }
+
+            //Cerrar archivos
             writer.close();
             scanner.close();
         } catch (FileNotFoundException e) {
