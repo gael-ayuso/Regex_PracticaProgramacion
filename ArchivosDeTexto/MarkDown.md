@@ -13,7 +13,7 @@ La ***manera en que implementamos el uso de expresiones regulares para la búsqu
 2. **Posteriormente** realiza la búsqueda de palabras que cumplan con la expresión regular en cada línea del archivo de texto y recorre todas las que lo cumplan en la línea.
 3. Al **final** añade todas las coincidencias a un archivo de texto nuevo.
 
-En base a lo anterior, utilizamos principalmente **dos funciones** de nuestra clase `functions.regex.ExpressionValidation`:
+En base a lo anterior, utilizamos principalmente **dos funciones** de nuestra clase `ExpressionValidation`:
 
 **`ValidSyntax(String expression)`**
 
@@ -24,7 +24,7 @@ En base a lo anterior, utilizamos principalmente **dos funciones** de nuestra cl
     - **Ejemplo de uso:**
     
     ```java
-    if (functions.regex.ExpressionValidation.ValidSyntax(expresion)) {
+    if (ExpressionValidation.ValidSyntax(expresion)) {
     		return true;
         // Continua con la búsqueda
     } else {
