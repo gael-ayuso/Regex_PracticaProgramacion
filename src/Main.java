@@ -1,5 +1,4 @@
 import functions.regex.UiRegex;
-import functions.regex.UiRegex;
 
 public class Main {
     public static void main(String[] args) {
