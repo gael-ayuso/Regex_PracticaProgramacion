@@ -11,12 +11,14 @@
             "id": "9f2caba6a79b2183",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "ArchivosDeTexto/fotos/Pasted image 20250915143920.png"
+                "file": "ArchivosDeTexto/MarkDown.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250915143920"
+              "icon": "lucide-file",
+              "title": "MarkDown"
             }
           }
         ]
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ArchivosDeTexto/fotos/Pasted image 20250915143920.png",
+                "file": "ArchivosDeTexto/MarkDown.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Pasted image 20250915143920"
+              "title": "Backlinks for MarkDown"
             }
           },
           {
@@ -111,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ArchivosDeTexto/fotos/Pasted image 20250915143920.png",
+                "file": "ArchivosDeTexto/MarkDown.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Pasted image 20250915143920"
+              "title": "Outgoing links from MarkDown"
             }
           },
           {
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ArchivosDeTexto/fotos/Pasted image 20250915143920.png",
+                "file": "ArchivosDeTexto/MarkDown.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20250915143920"
+              "title": "Outline of MarkDown"
             }
           }
         ]
@@ -167,8 +169,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "b6bb774781cf1218",
+  "active": "9f2caba6a79b2183",
   "lastOpenFiles": [
+    "ArchivosDeTexto/MarkDown.md~",
+    "src/functions/regex/UiRegex.java~",
+    "ArchivosDeTexto/fotos/Pasted image 20250915143920.png",
     "ArchivosDeTexto/fotos",
     "ArchivosDeTexto/MarkDown.md",
     "ArchivosDeTexto/fotos/Pasted image 20250915161919.png",
@@ -181,7 +186,6 @@
     "ArchivosDeTexto/fotos/Pasted image 20250915155413.png",
     "ArchivosDeTexto/fotos/Pasted image 20250915144121.png",
     "ArchivosDeTexto/fotos/Pasted image 20250915144048.png",
-    "ArchivosDeTexto/fotos/Pasted image 20250915143920.png",
     "out/production/Regex Teoria de la computacion/Main.class",
     "out/production/Regex Teoria de la computacion/functions/regex/UiRegex.class",
     "out/production/Regex Teoria de la computacion/functions/regex/UiRegex$1.class",

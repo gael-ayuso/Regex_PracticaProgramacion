@@ -97,7 +97,7 @@ class InterfazRegex extends JFrame {
     private void runExpressionValidation() {
         String expresion = zonaDeExpresion.getText();
 
-        if (ExpressionValidation.ValidSyntax(expresion)) {
+        if (ExpressionValidation.validSyntax(expresion)) {
             JFileChooser guardadorDeArchivos = new JFileChooser();
             guardadorDeArchivos.setDialogTitle("Guardar resultados de RegEx");
             guardadorDeArchivos.setFileFilter(new FileNameExtensionFilter("Archivos .txt", "txt"));
@@ -112,7 +112,7 @@ class InterfazRegex extends JFrame {
                     outputPath += ".txt";
                 }
                 // Llamada al validador y guardamos el path
-                ExpressionValidation.TestExpression(
+                ExpressionValidation.testExpression(
                         expresion,
                         archivoSeleccionado.getAbsolutePath(),
                         outputPath
