@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
         //Llama a la interfaz en donde se conecta con el ExpressionValidation
-        javax.swing.SwingUtilities.invokeLater(() -> new InterfazRegex());
+        new InterfazRegex();
     }
 }

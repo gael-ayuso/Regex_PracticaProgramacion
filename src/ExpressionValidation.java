@@ -10,7 +10,7 @@ public class ExpressionValidation {
     public static boolean validSyntax(String expression) {
         try {
             //Si la sintaxis es correcta retorna true
-            Pattern pattern = Pattern.compile(expression, Pattern.CASE_INSENSITIVE);
+            Pattern pattern = Pattern.compile(expression);
             return true;
         } catch (PatternSyntaxException e) {
             //System.out.println("La expresion regular no es valida"); *Lo quite porque en teoria no se ve la terminal
@@ -25,11 +25,11 @@ public class ExpressionValidation {
             File readingfile = new File(inputFilePath);
             // Lee las lineas del archivo de entrada
             Scanner scanner = new Scanner(readingfile);
-            Pattern pattern = Pattern.compile(expression, Pattern.CASE_INSENSITIVE);
+            Pattern pattern = Pattern.compile(expression);
 
             //Valida que haya una siguiente palabra
-            while (scanner.hasNext()) {
-                String data = scanner.next();
+            while (scanner.hasNextLine()) {
+                String data = scanner.nextLine();
                 Matcher matcher = pattern.matcher(data);
                 //Escribe la palabra que se encuentra en una string hasta que ya no haya
                 while (matcher.find()) {

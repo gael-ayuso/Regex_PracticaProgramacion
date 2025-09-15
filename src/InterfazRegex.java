@@ -15,15 +15,15 @@ public class InterfazRegex extends JFrame {
     //Etiqueta que indica el estado del resultado (donde se guardo o si se guardo)
     private final JLabel resultado;
 
-    InterfazRegex() {
+    public InterfazRegex() {
 
-        setTitle("Validador de Expresiones Regulares");
-        setSize(400, 300);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLocationRelativeTo(null);
-        setLayout(new BorderLayout());
+        this.setTitle("Validador de Expresiones Regulares");
+        this.setSize(400, 300);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setLocationRelativeTo(null);
+        this.setLayout(new BorderLayout());
 
-        // Panel General Multiuso
+        // Panel Gneral Multiuso
         JPanel panelGeneral = new JPanel();
         panelGeneral.setLayout(new BoxLayout(panelGeneral, BoxLayout.Y_AXIS));
         panelGeneral.setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
