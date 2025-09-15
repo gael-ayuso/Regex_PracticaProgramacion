@@ -11,14 +11,10 @@
             "id": "9f2caba6a79b2183",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ArchivosDeTexto/MarkDown.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "MarkDown"
+              "title": "New tab"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ArchivosDeTexto/MarkDown.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for MarkDown"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ArchivosDeTexto/MarkDown.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from MarkDown"
+              "title": "Outgoing links"
             }
           },
           {
@@ -142,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ArchivosDeTexto/MarkDown.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of MarkDown"
+              "title": "Outline"
             }
           }
         ]
@@ -171,24 +164,27 @@
   },
   "active": "9f2caba6a79b2183",
   "lastOpenFiles": [
-    "ArchivosDeTexto/MarkDown.md~",
-    "src/functions/regex/UiRegex.java~",
-    "ArchivosDeTexto/fotos/Pasted image 20250915143920.png",
-    "ArchivosDeTexto/fotos",
-    "ArchivosDeTexto/MarkDown.md",
+    "src/functions/regex/InterfazRegex.java",
     "ArchivosDeTexto/fotos/Pasted image 20250915161919.png",
     "ArchivosDeTexto/fotos/Pasted image 20250915161910.png",
     "ArchivosDeTexto/fotos/Pasted image 20250915161907.png",
     "ArchivosDeTexto/fotos/Pasted image 20250915161858.png",
-    "out/production/Regex Teoria de la computacion/functions/regex/ExpressionValidation.class",
-    "src/functions/regex/ExpressionValidation.java~",
     "ArchivosDeTexto/fotos/Pasted image 20250915155429.png",
     "ArchivosDeTexto/fotos/Pasted image 20250915155413.png",
     "ArchivosDeTexto/fotos/Pasted image 20250915144121.png",
     "ArchivosDeTexto/fotos/Pasted image 20250915144048.png",
-    "out/production/Regex Teoria de la computacion/Main.class",
-    "out/production/Regex Teoria de la computacion/functions/regex/UiRegex.class",
-    "out/production/Regex Teoria de la computacion/functions/regex/UiRegex$1.class",
-    "ArchivosDeTexto/Práctica_de_Programación._expresiones_regulares_.pdf"
+    "ArchivosDeTexto/fotos/Pasted image 20250915143920.png",
+    "ArchivosDeTexto/fotos",
+    "Pasted image 20250915161919.png",
+    "ArchivosDeTexto/MarkDown.md",
+    "src/functions/regex/UiRegex.java~",
+    "src/functions/regex/UiRegex.java",
+    "src/functions/regex/ExpressionValidation.java",
+    "src/functions/regex",
+    "src/functions",
+    "src/InterfazRegex.Java",
+    "ArchivosDeTexto/MarkDown",
+    "out/production/Regex Teoria de la computacion/ExpressionValidation.class",
+    "out/production/Regex Teoria de la computacion/Main.class"
   ]
 }
