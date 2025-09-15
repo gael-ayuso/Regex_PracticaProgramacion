@@ -13,7 +13,7 @@ La ***manera en que implementamos el uso de expresiones regulares para la búsqu
 2. **Posteriormente** realiza la búsqueda de palabras que cumplan con la expresión regular en cada línea del archivo de texto y recorre todas las que lo cumplan en la línea.
 3. Al **final** añade todas las coincidencias a un archivo de texto nuevo.
 
-En base a lo anterior, utilizamos principalmente **dos funciones** de nuestra clase `ExpressionValidation`:
+En base a lo anterior, utilizamos principalmente **dos funciones** de nuestra clase `functions.regex.ExpressionValidation`:
 
 **`ValidSyntax(String expression)`**
 
@@ -24,7 +24,7 @@ En base a lo anterior, utilizamos principalmente **dos funciones** de nuestra cl
     - **Ejemplo de uso:**
     
     ```java
-    if (ExpressionValidation.ValidSyntax(expresion)) {
+    if (functions.regex.ExpressionValidation.ValidSyntax(expresion)) {
     		return true;
         // Continua con la búsqueda
     } else {
@@ -67,8 +67,8 @@ En base a lo anterior, utilizamos principalmente **dos funciones** de nuestra cl
 ```java
 public class Main {
     public static void main(String[] args) {
-        //Llama a la interfaz en donde se conecta con el ExpressionValidation
-        javax.swing.SwingUtilities.invokeLater(() -> new InterfazRegex());
+        //Llama a la interfaz en donde se conecta con el functions.regex.ExpressionValidation
+        javax.swing.SwingUtilities.invokeLater(() -> new functions.regex.InterfazRegex());
     }
 }
 ```
@@ -82,7 +82,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
 
-public class ExpressionValidation {
+public class functions.regex.ExpressionValidation {
 
     //Expresion que valida que la expresion es valida
     public static boolean ValidSyntax(String expression) {
@@ -136,7 +136,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.io.File;
 
-class InterfazRegex extends JFrame {
+class functions.regex.InterfazRegex extends JFrame {
     //Aqui se declarará la expresión a buscar
     private final JTextField zonaDeExpresion;
     //Etiqueta que indicara el archivo seleccionado
@@ -147,7 +147,7 @@ class InterfazRegex extends JFrame {
     //Etiqueta que indica el estado del resultado (donde se guardo o si se guardo)
     private final JLabel resultado;
 
-    public InterfazRegex() {
+    public functions.regex.InterfazRegex() {
 
         setTitle("Validador de Expresiones Regulares");
         setSize(400, 300);
@@ -229,7 +229,7 @@ class InterfazRegex extends JFrame {
     private void runExpressionValidation() {
         String expresion = zonaDeExpresion.getText();
 
-        if (ExpressionValidation.ValidSyntax(expresion)) {
+        if (functions.regex.ExpressionValidation.ValidSyntax(expresion)) {
             JFileChooser guardadorDeArchivos = new JFileChooser();
             guardadorDeArchivos.setDialogTitle("Guardar resultados de RegEx");
             guardadorDeArchivos.setFileFilter(new FileNameExtensionFilter("Archivos .txt", "txt"));
@@ -244,7 +244,7 @@ class InterfazRegex extends JFrame {
                     outputPath += ".txt";
                 }
                 // Llamada al validador y guardamos el path
-                ExpressionValidation.TestExpression(
+                functions.regex.ExpressionValidation.TestExpression(
                         expresion,
                         archivoSeleccionado.getAbsolutePath(),
                         outputPath
