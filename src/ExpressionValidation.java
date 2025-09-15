@@ -13,11 +13,10 @@ public class ExpressionValidation {
             Pattern pattern = Pattern.compile(expression, Pattern.CASE_INSENSITIVE);
             return true;
         } catch (PatternSyntaxException e) {
-            System.out.println("La expresion regular no es valida");
+            //System.out.println("La expresion regular no es valida"); *Lo quite porque en teoria no se ve la terminal
             return false;
         }
     }
-
     //Funcion que realiza la busqueda de las palabras con la expresion regular
     public static void TestExpression(String expression, String inputFilePath, String outputFilePath) {
         try {
@@ -42,10 +41,9 @@ public class ExpressionValidation {
             writer.close();
             scanner.close();
         } catch (FileNotFoundException e) {
-            System.out.println("Archivo no encontrado");
+            //System.out.println("Archivo no encontrado");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
     }
-
 }

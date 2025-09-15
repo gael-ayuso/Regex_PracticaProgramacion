@@ -1,20 +1,6 @@
-import java.util.Scanner;
-
 public class Main {
-
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String expression = scanner.nextLine();
-
-        //Direcciones de los archivos
-        String inputFilePath = "/home/goodsgames/Downloads/Hola.txt",
-                outputFilePath = "/home/goodsgames/Downloads/Hola.txt";
-
-        if (ExpressionValidation.ValidSyntax(expression)) {
-            ExpressionValidation.TestExpression(expression, inputFilePath, outputFilePath);
-        }
-
+        //Llama a la interfaz en donde se conecta con el ExpressionValidation
+        javax.swing.SwingUtilities.invokeLater(() -> new InterfazRegex());
     }
-
-
 }
