@@ -288,11 +288,11 @@ Jed Dorsheimer, group head of energy and power technologies at William Blair, sa
 
 Y usamos la expresión `\d+` que nos debe de devolver las palabras que tiene números del 0 al 9 una o mas veces.
 
-![[Pasted image 20250915143920.png]]
+![Screenshot](ArchivosDeTexto/fotos/Pasted%20image%2020250915143920.png)
 
 En la dirección `/home/goodsgames/Desktop/xd.txt` debemos encontrar las palabras que cumplan con la expresión regular.
-![Pasted image 20250915144048.png]
-![Pasted image 20250915144121.png]
+![Screenshoot](ArchivosDeTexto/fotos/Pasted%20image%2020250915144048.png)
+![Screenshoot](ArchivosDeTexto/fotos/Pasted%20image%2020250915144121.png)
 
 ---
 
@@ -314,12 +314,11 @@ Brooklyn Nets center Jason Collins conducts a radio interview following a 108-10
 
 Usaremos la expresión regular `[A-Z]\w+`, son las palabras que inician con una letra mayúscula y puede terminar con cualquier sentencia de caracteres alfanumericos.
 
-![Pasted image 20250915155413.png]
+![Screenshot](ArchivosDeTexto/fotos/Pasted%20image%2020250915155413.png)
 
 El resultado:
 
-![Pasted image 20250915155429.png]
-
+![Screenshot](ArchivosDeTexto/fotos/Pasted%20image%2020250915155429.png)
 --- 
 Ahora probaremos con la letra de una cancion:
 ```
@@ -354,9 +353,9 @@ En este texto tenemos palabras entre `[ ]` significa en las letras de una canci�
 
 Entonces digamos que queremos saber cuales son esas palabras en esta canción. La expresion regular seria `\[.+\]`, la cual son las palabras que empiezan en `[` y terminan en `]`.
 
-![Pasted image 20250915161858.png]
+![](ArchivosDeTexto/fotos/Pasted%20image%2020250915161858.png)
 
 
 El resultado:
 
-![Pasted image 20250915161919.png]
+![](ArchivosDeTexto/fotos/Pasted%20image%2020250915161919.png)
