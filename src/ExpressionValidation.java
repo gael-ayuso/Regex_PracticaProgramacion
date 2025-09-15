@@ -7,7 +7,7 @@ import java.util.regex.PatternSyntaxException;
 public class ExpressionValidation {
 
     //Expresion que valida que la expresion es valida
-    public static boolean ValidSyntax(String expression) {
+    public static boolean validSyntax(String expression) {
         try {
             //Si la sintaxis es correcta retorna true
             Pattern pattern = Pattern.compile(expression, Pattern.CASE_INSENSITIVE);
@@ -18,7 +18,7 @@ public class ExpressionValidation {
         }
     }
     //Funcion que realiza la busqueda de las palabras con la expresion regular
-    public static void TestExpression(String expression, String inputFilePath, String outputFilePath) {
+    public static void testExpression(String expression, String inputFilePath, String outputFilePath) {
         try {
             // Escribe y crea el archivo
             BufferedWriter writer = new BufferedWriter(new FileWriter(outputFilePath));

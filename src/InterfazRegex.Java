@@ -4,18 +4,18 @@ import java.awt.*;
 import java.awt.event.*;
 import java.io.File;
 
-class InterfazRegex extends JFrame {
+public class InterfazRegex extends JFrame {
     //Aqui se declarará la expresión a buscar
     private final JTextField zonaDeExpresion;
     //Etiqueta que indicara el archivo seleccionado
     private final JLabel archivo;
-    private File archivoSeleccionado;
+    private String archivoSeleccionado;
     //Boton de busqueda de expresiones y de guardar resultados
     private final JButton buscadorDeExpresiones;
     //Etiqueta que indica el estado del resultado (donde se guardo o si se guardo)
     private final JLabel resultado;
 
-    public InterfazRegex() {
+    InterfazRegex() {
 
         setTitle("Validador de Expresiones Regulares");
         setSize(400, 300);
@@ -23,7 +23,7 @@ class InterfazRegex extends JFrame {
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
 
-        // Panel Gneral Multiuso
+        // Panel General Multiuso
         JPanel panelGeneral = new JPanel();
         panelGeneral.setLayout(new BoxLayout(panelGeneral, BoxLayout.Y_AXIS));
         panelGeneral.setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
@@ -88,8 +88,8 @@ class InterfazRegex extends JFrame {
         int option = seleccionadorDeArchivo.showOpenDialog(this);
 
         if (option == JFileChooser.APPROVE_OPTION) {
-            archivoSeleccionado = seleccionadorDeArchivo.getSelectedFile();
-            archivo.setText("Archivo seleccionado: " + archivoSeleccionado.getName());
+            archivoSeleccionado = seleccionadorDeArchivo.getSelectedFile().getAbsolutePath();
+            archivo.setText("Archivo seleccionado: " + archivoSeleccionado);
             buscadorDeExpresiones.setEnabled(true);
         }
     }
@@ -97,7 +97,7 @@ class InterfazRegex extends JFrame {
     private void runExpressionValidation() {
         String expresion = zonaDeExpresion.getText();
 
-        if (ExpressionValidation.ValidSyntax(expresion)) {
+        if (ExpressionValidation.validSyntax(expresion)) {
             JFileChooser guardadorDeArchivos = new JFileChooser();
             guardadorDeArchivos.setDialogTitle("Guardar resultados de RegEx");
             guardadorDeArchivos.setFileFilter(new FileNameExtensionFilter("Archivos .txt", "txt"));
@@ -112,9 +112,9 @@ class InterfazRegex extends JFrame {
                     outputPath += ".txt";
                 }
                 // Llamada al validador y guardamos el path
-                ExpressionValidation.TestExpression(
+                ExpressionValidation.testExpression(
                         expresion,
-                        archivoSeleccionado.getAbsolutePath(),
+                        archivoSeleccionado,
                         outputPath
                 );
                 
