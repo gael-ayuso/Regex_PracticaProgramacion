@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "15593b34ac807a2e",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d2fce7326215bca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f2caba6a79b2183",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ArchivosDeTexto/MarkDown.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MarkDown"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3eaa2d182865837d",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a984656204fdf21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6bb774781cf1218",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ab188c4f25aa3dd2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2b11557fd8ffb25c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6dbbddd8dca4eeb6",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6bf8df40853da96",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f13b0a18caa51b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ArchivosDeTexto/MarkDown.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for MarkDown"
+            }
+          },
+          {
+            "id": "be0bce69e1d3e07f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ArchivosDeTexto/MarkDown.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from MarkDown"
+            }
+          },
+          {
+            "id": "26f5d9b159cae4ed",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "41a5cd4000156438",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ArchivosDeTexto/MarkDown.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of MarkDown"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "9f2caba6a79b2183",
+  "lastOpenFiles": [
+    "Pasted image 20250915161919.png",
+    "Pasted image 20250915161910.png",
+    "Pasted image 20250915161907.png",
+    "Pasted image 20250915161858.png",
+    "out/production/Regex Teoria de la computacion/functions/regex/ExpressionValidation.class",
+    "src/functions/regex/ExpressionValidation.java~",
+    "Pasted image 20250915155429.png",
+    "Pasted image 20250915155413.png",
+    "Pasted image 20250915144121.png",
+    "Pasted image 20250915144048.png",
+    "Pasted image 20250915143920.png",
+    "out/production/Regex Teoria de la computacion/Main.class",
+    "out/production/Regex Teoria de la computacion/functions/regex/UiRegex.class",
+    "out/production/Regex Teoria de la computacion/functions/regex/UiRegex$1.class",
+    "ArchivosDeTexto/Práctica_de_Programación._expresiones_regulares_.pdf",
+    "ArchivosDeTexto/MarkDown.md"
+  ]
+}
