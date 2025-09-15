@@ -11,14 +11,12 @@
             "id": "9f2caba6a79b2183",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "ArchivosDeTexto/MarkDown.md",
-                "mode": "source",
-                "source": false
+                "file": "ArchivosDeTexto/fotos/Pasted image 20250915143920.png"
               },
-              "icon": "lucide-file",
-              "title": "MarkDown"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250915143920"
             }
           }
         ]
@@ -94,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ArchivosDeTexto/MarkDown.md",
+                "file": "ArchivosDeTexto/fotos/Pasted image 20250915143920.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for MarkDown"
+              "title": "Backlinks for Pasted image 20250915143920"
             }
           },
           {
@@ -113,12 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ArchivosDeTexto/MarkDown.md",
+                "file": "ArchivosDeTexto/fotos/Pasted image 20250915143920.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from MarkDown"
+              "title": "Outgoing links from Pasted image 20250915143920"
             }
           },
           {
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ArchivosDeTexto/MarkDown.md",
+                "file": "ArchivosDeTexto/fotos/Pasted image 20250915143920.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of MarkDown"
+              "title": "Outline of Pasted image 20250915143920"
             }
           }
         ]
@@ -169,23 +167,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "9f2caba6a79b2183",
+  "active": "b6bb774781cf1218",
   "lastOpenFiles": [
-    "Pasted image 20250915161919.png",
-    "Pasted image 20250915161910.png",
-    "Pasted image 20250915161907.png",
-    "Pasted image 20250915161858.png",
+    "ArchivosDeTexto/fotos",
+    "ArchivosDeTexto/MarkDown.md",
+    "ArchivosDeTexto/fotos/Pasted image 20250915161919.png",
+    "ArchivosDeTexto/fotos/Pasted image 20250915161910.png",
+    "ArchivosDeTexto/fotos/Pasted image 20250915161907.png",
+    "ArchivosDeTexto/fotos/Pasted image 20250915161858.png",
     "out/production/Regex Teoria de la computacion/functions/regex/ExpressionValidation.class",
     "src/functions/regex/ExpressionValidation.java~",
-    "Pasted image 20250915155429.png",
-    "Pasted image 20250915155413.png",
-    "Pasted image 20250915144121.png",
-    "Pasted image 20250915144048.png",
-    "Pasted image 20250915143920.png",
+    "ArchivosDeTexto/fotos/Pasted image 20250915155429.png",
+    "ArchivosDeTexto/fotos/Pasted image 20250915155413.png",
+    "ArchivosDeTexto/fotos/Pasted image 20250915144121.png",
+    "ArchivosDeTexto/fotos/Pasted image 20250915144048.png",
+    "ArchivosDeTexto/fotos/Pasted image 20250915143920.png",
     "out/production/Regex Teoria de la computacion/Main.class",
     "out/production/Regex Teoria de la computacion/functions/regex/UiRegex.class",
     "out/production/Regex Teoria de la computacion/functions/regex/UiRegex$1.class",
-    "ArchivosDeTexto/Práctica_de_Programación._expresiones_regulares_.pdf",
-    "ArchivosDeTexto/MarkDown.md"
+    "ArchivosDeTexto/Práctica_de_Programación._expresiones_regulares_.pdf"
   ]
 }
