@@ -11,14 +11,12 @@
             "id": "9f2caba6a79b2183",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ArchivosDeTexto/MarkDown.md",
-                "mode": "source",
-                "source": false
+                "file": "ArchivosDeTexto/Práctica_de_Programación._expresiones_regulares_.pdf"
               },
-              "icon": "lucide-file",
-              "title": "MarkDown"
+              "icon": "lucide-file-text",
+              "title": "Práctica_de_Programación._expresiones_regulares_"
             }
           }
         ]
@@ -94,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ArchivosDeTexto/MarkDown.md",
+                "file": "ArchivosDeTexto/Práctica_de_Programación._expresiones_regulares_.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for MarkDown"
+              "title": "Backlinks for Práctica_de_Programación._expresiones_regulares_"
             }
           },
           {
@@ -113,12 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ArchivosDeTexto/MarkDown.md",
+                "file": "ArchivosDeTexto/Práctica_de_Programación._expresiones_regulares_.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from MarkDown"
+              "title": "Outgoing links from Práctica_de_Programación._expresiones_regulares_"
             }
           },
           {
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ArchivosDeTexto/MarkDown.md",
+                "file": "ArchivosDeTexto/Práctica_de_Programación._expresiones_regulares_.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of MarkDown"
+              "title": "Outline of Práctica_de_Programación._expresiones_regulares_"
             }
           }
         ]
@@ -171,6 +169,9 @@
   },
   "active": "9f2caba6a79b2183",
   "lastOpenFiles": [
+    "README.md",
+    "ArchivosDeTexto/MarkDown.md",
+    "ArchivosDeTexto/README.md",
     "out/production/Regex Teoria de la computacion/ExpressionValidation.class",
     "out/production/Regex Teoria de la computacion/Main.class",
     "out/production/Regex Teoria de la computacion/InterfazRegex.class",
@@ -181,7 +182,6 @@
     "src/functions/regex/UiRegex.java~",
     "src/functions/regex/UiRegex.java",
     "src/functions/regex/ExpressionValidation.java",
-    "src/functions/regex",
     "ArchivosDeTexto/fotos/Pasted image 20250915161919.png",
     "ArchivosDeTexto/fotos/Pasted image 20250915161910.png",
     "ArchivosDeTexto/fotos/Pasted image 20250915161907.png",
@@ -191,7 +191,6 @@
     "ArchivosDeTexto/fotos/Pasted image 20250915144121.png",
     "ArchivosDeTexto/fotos/Pasted image 20250915144048.png",
     "ArchivosDeTexto/fotos/Pasted image 20250915143920.png",
-    "Pasted image 20250915161919.png",
-    "ArchivosDeTexto/MarkDown.md"
+    "Pasted image 20250915161919.png"
   ]
 }
