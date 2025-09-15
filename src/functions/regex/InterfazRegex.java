@@ -6,7 +6,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.io.File;
 
-public class UiRegex extends JFrame {
+public class InterfazRegex extends JFrame {
     //Aqui se declarará la expresión a buscar
     private final JTextField zonaDeExpresion;
     //Etiqueta que indicara el archivo seleccionado
@@ -17,7 +17,7 @@ public class UiRegex extends JFrame {
     //Etiqueta que indica el estado del resultado (donde se guardo o si se guardo)
     private final JLabel resultado;
 
-    public UiRegex() {
+    public InterfazRegex() {
 
         this.setTitle("Validador de Expresiones Regulares");
         this.setSize(400, 300);
