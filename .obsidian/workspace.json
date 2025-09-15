@@ -171,15 +171,17 @@
   },
   "active": "9f2caba6a79b2183",
   "lastOpenFiles": [
-    "ArchivosDeTexto/MarkDown.md~",
-    "src/ExpressionValidation.java~",
-    "src/InterfazRegex.java~",
-    "src/Main.java~",
+    "out/production/Regex Teoria de la computacion/ExpressionValidation.class",
+    "out/production/Regex Teoria de la computacion/Main.class",
+    "out/production/Regex Teoria de la computacion/InterfazRegex.class",
+    "out/production/Regex Teoria de la computacion/InterfazRegex$1.class",
     "src/InterfazRegex.java",
     "src/ExpressionValidation.java",
-    "src/functions/regex/InterfazRegex.java~",
-    "ArchivosDeTexto/fotos/Pasted image 20250915143920.png",
-    "ArchivosDeTexto/MarkDown.md",
+    "src/Main.java~",
+    "src/functions/regex/UiRegex.java~",
+    "src/functions/regex/UiRegex.java",
+    "src/functions/regex/ExpressionValidation.java",
+    "src/functions/regex",
     "ArchivosDeTexto/fotos/Pasted image 20250915161919.png",
     "ArchivosDeTexto/fotos/Pasted image 20250915161910.png",
     "ArchivosDeTexto/fotos/Pasted image 20250915161907.png",
@@ -187,6 +189,9 @@
     "ArchivosDeTexto/fotos/Pasted image 20250915155429.png",
     "ArchivosDeTexto/fotos/Pasted image 20250915155413.png",
     "ArchivosDeTexto/fotos/Pasted image 20250915144121.png",
-    "ArchivosDeTexto/fotos/Pasted image 20250915144048.png"
+    "ArchivosDeTexto/fotos/Pasted image 20250915144048.png",
+    "ArchivosDeTexto/fotos/Pasted image 20250915143920.png",
+    "Pasted image 20250915161919.png",
+    "ArchivosDeTexto/MarkDown.md"
   ]
 }
