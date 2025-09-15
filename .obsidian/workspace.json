@@ -170,15 +170,16 @@
   "active": "9f2caba6a79b2183",
   "lastOpenFiles": [
     "README.md~",
+    "ArchivosDeTexto/fotos/Pasted image 20250915161919.png",
+    "ArchivosDeTexto/fotos/Pasted image 20250915161910.png",
+    "ArchivosDeTexto/fotos/Pasted image 20250915161907.png",
+    "ArchivosDeTexto/fotos/Pasted image 20250915161858.png",
+    "ArchivosDeTexto/fotos/Pasted image 20250915155429.png",
+    "ArchivosDeTexto/fotos/Pasted image 20250915155413.png",
+    "ArchivosDeTexto/fotos/Pasted image 20250915144121.png",
+    "ArchivosDeTexto/fotos/Pasted image 20250915144048.png",
+    "ArchivosDeTexto/fotos/Pasted image 20250915143920.png",
     "Pasted image 20250915161919.png",
-    "Pasted image 20250915161910.png",
-    "Pasted image 20250915161907.png",
-    "Pasted image 20250915161858.png",
-    "Pasted image 20250915155429.png",
-    "Pasted image 20250915155413.png",
-    "Pasted image 20250915144121.png",
-    "Pasted image 20250915144048.png",
-    "Pasted image 20250915143920.png",
     "README.md",
     "ArchivosDeTexto/MarkDown.md",
     "ArchivosDeTexto/README.md",
@@ -190,8 +191,6 @@
     "src/ExpressionValidation.java",
     "src/Main.java~",
     "src/functions/regex/UiRegex.java~",
-    "src/functions/regex/UiRegex.java",
-    "src/functions/regex/ExpressionValidation.java",
-    "ArchivosDeTexto/fotos/Pasted image 20250915161919.png"
+    "src/functions/regex/UiRegex.java"
   ]
 }
